@@ -1,6 +1,6 @@
--include vendor/leeco/x3/BoardConfigVendor.mk
+-include vendor/amoi/l861/BoardConfigVendor.mk
 
-LOCAL_PATH := device/leeco/x3
+LOCAL_PATH := device/amoi/l861
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -72,7 +72,7 @@ BOARD_MKBOOTIMG_ARGS := \
 	--second_offset 0x00e88000 \
 	--tags_offset 0x0df88000 \
 	--board MT6795
-TARGET_KERNEL_SOURCE := kernel/leeco/x3
+TARGET_KERNEL_SOURCE := kernel/amoi/l861
 TARGET_KERNEL_CONFIG := l861_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
