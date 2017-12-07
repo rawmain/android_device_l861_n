@@ -1,5 +1,5 @@
 #
-# system.prop for LeEco Le 1s
+# system.prop for AMOI L861
 #
 # MTK, Infinity, 20090720 {
 wifi.interface=wlan0
@@ -56,7 +56,7 @@ persist.sys.button_jack_profile=volume
 persist.sys.button_jack_switch=0
 
 #default timezone
-persist.sys.defaulttimezone=Asia/Kolkata
+persist.sys.defaulttimezone=Europe/Rome
 
 ro.kernel.zio=38,108,105,16
 #ro.kernel.qemu=1
