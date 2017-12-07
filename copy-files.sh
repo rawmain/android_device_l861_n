@@ -18,7 +18,9 @@ for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
 	if [ ! -d $BASE/$DIR ]; then
 		mkdir -p $BASE/$DIR
 	fi
-	cp $SYSDIR/$FILE $BASE/$FILE
+	if [ -f $SYSDIR/$FILE ]; then
+		cp $SYSDIR/$FILE $BASE/$FILE
+	fi
 done
 
 ./setup-makefiles.sh
