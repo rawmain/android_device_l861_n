@@ -1,1 +1,1 @@
-add_lunch_combo dot_x3-userdebug
+add_lunch_combo dot_l861-userdebug
