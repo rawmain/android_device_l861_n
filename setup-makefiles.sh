@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VENDOR=leeco
-DEVICE=x3
+VENDOR=amoi
+DEVICE=l861
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
