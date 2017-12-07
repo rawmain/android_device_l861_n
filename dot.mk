@@ -1,5 +1,5 @@
 
-LOCAL_PATH := device/amoi/l861
+LOCAL_PATH := device/leeco/x3
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -13,17 +13,17 @@ $(call inherit-product, vendor/dot/config/common_full_phone.mk)
 #$(call inherit-product, vendor/dot/config/gsm.mk)
 
 # Device display
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-BOARD_VENDOR := AMOI
-PRODUCT_BRAND := AMOI
-PRODUCT_DEVICE := l861
-PRODUCT_NAME := dot_l861
-PRODUCT_MANUFACTURER := AMOI
-PRODUCT_MODEL := L861
-TARGET_VENDOR := AMOI
+BOARD_VENDOR := LeEco
+PRODUCT_BRAND := LeEco
+PRODUCT_DEVICE := x3
+PRODUCT_NAME := dot_x3
+PRODUCT_MANUFACTURER := LeEco
+PRODUCT_MODEL := Le 1s
+TARGET_VENDOR := LeEco
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # SDcard

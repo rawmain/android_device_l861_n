@@ -1,14 +1,14 @@
 [
   {
-    "repository": "android_kernel_l861_n",
-    "target_path": "kernel/amoi/l861"
+    "repository": "android_kernel_leeco_x3",
+    "target_path": "kernel/leeco/x3"
   },
   {
-    "repository": "android_device_l861_n",
-    "target_path": "device/amoi/l861"
+    "repository": "android_device_leeco_x3",
+    "target_path": "device/leeco/x3"
   },
   {
-    "repository": "android_vendor_l861_m",
-    "target_path": "vendor/amoi/l861"
+    "repository": "android_vendor_leeco_x3",
+    "target_path": "vendor/leeco/x3"
   }
 ]

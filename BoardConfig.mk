@@ -1,6 +1,6 @@
--include vendor/amoi/l861/BoardConfigVendor.mk
+-include vendor/leeco/x3/BoardConfigVendor.mk
 
-LOCAL_PATH := device/amoi/l861
+LOCAL_PATH := device/leeco/x3
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -72,7 +72,7 @@ BOARD_MKBOOTIMG_ARGS := \
 	--second_offset 0x00e88000 \
 	--tags_offset 0x0df88000 \
 	--board MT6795
-TARGET_KERNEL_SOURCE := kernel/amoi/l861
+TARGET_KERNEL_SOURCE := kernel/leeco/x3
 TARGET_KERNEL_CONFIG := l861_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
@@ -175,7 +175,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/amoi/l861/sepolicy
+BOARD_SEPOLICY_DIRS += device/leeco/x3/sepolicy
 
 # Seccomp Filter
 BOARD_SECCOMP_POLICY := $(LOCAL_PATH)/seccomp

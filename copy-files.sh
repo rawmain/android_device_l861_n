@@ -6,8 +6,8 @@ echo "You must specify system directory as first argument";
 exit
 fi
 
-VENDOR=amoi
-DEVICE=l861
+VENDOR=leeco
+DEVICE=x3
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 
@@ -18,9 +18,7 @@ for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
 	if [ ! -d $BASE/$DIR ]; then
 		mkdir -p $BASE/$DIR
 	fi
-	if [ -e $SYSDIR/$FILE ]; then
-		cp $SYSDIR/$FILE $BASE/$FILE
-	fi
+	cp $SYSDIR/$FILE $BASE/$FILE
 done
 
 ./setup-makefiles.sh
